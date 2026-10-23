@@ -7,12 +7,9 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 # 科学上网 - OpenClash
 src-git openclash https://github.com/vernesong/OpenClash.git
 
-# 科学上网 - PassWall / PassWall2
-src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
-src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git
+# 科学上网 - PassWall / PassWall2 / SS-Plus / 各类插件（kenzok8 稳定源）
+src-git kenzok8 https://github.com/kenzok8/openwrt-packages.git
+src-git small https://github.com/kenzok8/small.git
 
-# 科学上网 - SS/SSR Plus 等
+# 科学上网 - SS/SSR Plus 补充
 src-git helloworld https://github.com/fw876/helloworld.git
-
-# 高大全通用软件包（覆盖大量 luci-app-*）
-src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git
